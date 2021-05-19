@@ -1,0 +1,112 @@
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.card-container {
+  background-color: #150b3e;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  padding: 20px 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 500px;
+  }
+}
+
+.name-container {
+  display: flex;
+  align-items: center;
+}
+
+.name-initial {
+  border-radius: 50%;
+  background-color: #c7d2fe;
+  font-size: 20px;
+  color: #7c3aed;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  padding-top: 10px;
+  margin-right: 10px;
+}
+
+.last-name {
+  color: #d4d2db;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.balance-text {
+  color: #382f5a;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .balance-text {
+    font-size: 22px;
+  }
+}
+
+.balance-amount {
+  color: #d4d2db;
+  font-size: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .balance-amount {
+    font-size: 24px;
+  }
+}
+
+.rupees-text {
+  color: #382f5a;
+  font-size: 18px;
+  text-align: right;
+}
+
+@media screen and (min-width: 768px) {
+  .rupees-text {
+    font-size: 22px;
+  }
+}
+
+.withdraw-text {
+  color: #d4d2db;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .withdraw-text {
+    font-size: 22px;
+  }
+}
+
+.sum-text {
+  color: #382f5a;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.items-container {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

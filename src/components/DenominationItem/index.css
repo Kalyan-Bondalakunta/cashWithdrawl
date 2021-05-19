@@ -1,0 +1,28 @@
+.list-item {
+  width: 40%;
+  font-size: 14px;
+  text-align: center;
+  margin: 10px;
+  background-color: #382f5a;
+  color: #d4d2db;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .list-item {
+    width: 45%;
+  }
+}
+
+.btn-item {
+  background-color: transparent;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #d4d2db;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d4d2db;
+  border-radius: 5px;
+}
